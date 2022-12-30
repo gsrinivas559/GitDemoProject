@@ -5,6 +5,7 @@ public class Assignment1 {
 	public static void main(String[] args) {
 
 		System.out.println("1. Write a Java program to get a number from the user and print whether it is positive or negative.");
+		
 		Scanner s = new Scanner(System.in);
 		int num = s.nextInt();
 		if(num>0) {
