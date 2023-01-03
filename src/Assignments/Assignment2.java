@@ -113,7 +113,7 @@ public class Assignment2 {
 		System.out.println("8. Add two matrices using 2 dimensional array.");
 		int x[][] = {{100, 200}, {300, 400}, {500, 600}};
 		int y[][] = {{100,200}, {300, 400}, {500, 600}};
-		int row = 3, column = 2;
+		int row = x.length, column = x[0].length;
 		int[][] z = new int[row][column];
 		/*for (int[] r : x) {
 			for (int s : r) {
@@ -125,7 +125,7 @@ public class Assignment2 {
 			for (int v : u) {
 				System.out.print(v+" ");
 			}
-		}
+		}*/
 		System.out.println(x.length);
 		System.out.println(x[0].length);
 		/*for (int i = 0; i < x.length; i++) { //0<3 --> 1<3 --> 2<3 --> 3<3[false]
