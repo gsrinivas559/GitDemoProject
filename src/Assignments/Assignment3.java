@@ -65,7 +65,9 @@ public class Assignment3 {
 		String strToInt = "123456789";
 		int strConvToInt = Integer.valueOf(strToInt);
 		System.out.println(strConvToInt);
-		
+		//Method 2 -->
+		strConvToInt = Integer.parseInt(strToInt);
+		System.out.println(strConvToInt);
 		System.out.println("11.Write a Java program to Swap the 2 strings.");
 		//10 20 java selenium
 		String tempVar = "";
