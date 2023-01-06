@@ -4,10 +4,10 @@ public class Calculation {
 
 	int a, b, c;
 	
-	public Calculation(int x, int y, int z) {
-		a=x;
-		b=y;
-		c=z;
+	public Calculation(int a, int b, int c) {
+		this.a=a;
+		this.b=b;
+		this.c=c;
 	}
 	
 	public int sum(int x, int y) {
