@@ -1,4 +1,4 @@
-package MultipleInheritance;
+package Assignments.MultipleInheritance;
 
 interface I
 {

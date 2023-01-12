@@ -1,4 +1,4 @@
-package MultipleInheritance;
+package Assignments.MultipleInheritance;
 
 interface A {
 	int a = 100, b = 200;
